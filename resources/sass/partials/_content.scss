@@ -10,6 +10,13 @@ main {
             h3 {
                 margin-bottom: 1rem;
             }
+            div {
+                margin-bottom: 0.5rem;
+            }
+
+            div:last-of-type {
+                margin-bottom: 1rem;
+            }
         }
 
         section {

@@ -35,6 +35,10 @@ header .container nav ul {
 header .container nav ul li {
   margin-right: 1rem;
 }
+header .container nav ul li a {
+  text-decoration: none;
+  color: black;
+}
 
 main .container h2 {
   margin-bottom: 1.5rem;
@@ -43,6 +47,12 @@ main .container article {
   margin-bottom: 1rem;
 }
 main .container article h3 {
+  margin-bottom: 1rem;
+}
+main .container article div {
+  margin-bottom: 0.5rem;
+}
+main .container article div:last-of-type {
   margin-bottom: 1rem;
 }
 main .container section nav ul {
